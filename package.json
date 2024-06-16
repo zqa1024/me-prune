@@ -1,0 +1,15 @@
+{
+  "name": "me-prune",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:api": "pnpm --filter ./apps/prune-api/ start",
+    "start:admin": "pnpm --filter ./apps/prune-admin/ dev",
+    "start:all": "pnpm run start:api & pnpm run start:admin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
