@@ -1,0 +1,3 @@
+[submodule "apps/prune-api"]
+	path = apps/prune-api
+	url = git@github.com:zqa1024/nestjs_jwts.git
